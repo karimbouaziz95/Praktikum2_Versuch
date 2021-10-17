@@ -10,5 +10,6 @@ private :
 	Fahrzeug();
 	Fahrzeug(int p_iMaxID);
 	Fahrzeug(int p_iMaxID,string name);
+	-Fahrzeug();
  };
 
