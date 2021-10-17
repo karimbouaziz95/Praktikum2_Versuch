@@ -1,0 +1,21 @@
+﻿  AktivesVO.cpp
+  FahrAusnahme.cpp
+  Fahrrad.cpp
+  Fahrzeug.cpp
+  FzgFahren.cpp
+  FzgParken.cpp
+  FzgVerhalten.cpp
+  Losfahren.cpp
+  main.cpp
+  PKW.cpp
+  Streckenende.cpp
+  Weg.cpp
+  Code wird generiert...
+Fahrrad.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) bool __cdecl bZeichneFahrrad(char const *,char const *,double,double)" (__imp_?bZeichneFahrrad@@YA_NPEBD0NN@Z)" in Funktion ""public: virtual void __cdecl Fahrrad::vZeichnen(class Weg *)" (?vZeichnen@Fahrrad@@UEAAXPEAVWeg@@@Z)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) bool __cdecl bInitialisiereGrafik(int,int,char *)" (__imp_?bInitialisiereGrafik@@YA_NHHPEAD@Z)" in Funktion ""void __cdecl GrafikOberflaeche(void)" (?GrafikOberflaeche@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) void __cdecl vBeendeGrafik(void)" (__imp_?vBeendeGrafik@@YAXXZ)" in Funktion ""void __cdecl vAufgabe_5(void)" (?vAufgabe_5@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) void __cdecl vSetzeZeit(double)" (__imp_?vSetzeZeit@@YAXN@Z)" in Funktion ""void __cdecl vAufgabe_5(void)" (?vAufgabe_5@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) bool __cdecl bZeichneStrasse(char const *,char const *,int,int,int *)" (__imp_?bZeichneStrasse@@YA_NPEBD0HHPEAH@Z)" in Funktion ""void __cdecl GrafikOberflaeche(void)" (?GrafikOberflaeche@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) void __cdecl vSleep(int)" (__imp_?vSleep@@YAXH@Z)" in Funktion ""void __cdecl vAufgabe_5(void)" (?vAufgabe_5@@YAXXZ)".
+PKW.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) bool __cdecl bZeichnePKW(char const *,char const *,double,double,double)" (__imp_?bZeichnePKW@@YA_NPEBD0NNN@Z)" in Funktion ""public: virtual void __cdecl PKW::vZeichnen(class Weg *)" (?vZeichnen@PKW@@UEAAXPEAVWeg@@@Z)".
+\\Mac\Home\Desktop\Strassenverkehr\x64\Debug\Aufgabenblock_3.exe : fatal error LNK1120: 7 nicht aufgelöste Externe

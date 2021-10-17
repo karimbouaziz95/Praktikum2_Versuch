@@ -1,0 +1,5 @@
+﻿  Fahrrad.cpp
+  PKW.cpp
+  main.cpp
+  Code wird generiert...
+SimuClient.lib(SimuClient.dll) : fatal error LNK1112: Modul-Computertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64".
